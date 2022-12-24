@@ -1,0 +1,32 @@
+@import url(./sttyle.css);
+
+
+@media (max-width: 1151px) {
+
+    .header button {
+        position: absolute;
+        right: 20% !important;
+        margin-top: -30px;
+    }
+}
+
+
+@media (max-width: 809px) {
+
+    .header button {
+        position: absolute;
+        right: 16% !important;
+        margin-top: -30px;
+    }
+}
+
+
+
+@media (max-width: 544px) {
+
+    .header button {
+        position: absolute;
+        right: 16% !important;
+        margin-top: -30px;
+    }
+}
