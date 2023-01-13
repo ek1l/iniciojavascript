@@ -27,3 +27,15 @@ btn.addEventListener('click', function(bt) {
         mudarBorda.forEach(pegar => pegar.classList.add('passou'))
    }
 })
+
+
+
+function registrar() {
+   let registro = document.querySelector(".popup")
+   registro.style.display = "block"
+}
+
+function fechar(){
+   let registro = document.querySelector(".popup")
+   registro.style.display = "none"
+}

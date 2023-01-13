@@ -16,7 +16,7 @@
      </div>
 
      <form id="form" action="">
-        <input class="bordainput" type="text" name="nome" id="nome" placeholder="Nome completo *">
+        <input class="bordainput"  type="text" name="nome" id="nome" placeholder="Nome completo *">
         <div class="errado">Campo obrigatório *</div>
         <input class="bordainput" type="email" name="email" id="email" placeholder="Email *">
         <div class="errado">Campo obrigatório *</div>
@@ -26,8 +26,15 @@
         <div class="errado">Campo obrigatório *</div>
         <h5>*Campos obrigatórios</h5>
         <input id="enviar" type="button" value="submit">
+        <input id="estilizar"  onclick="registrar()" type="button" value="Registrar">
      </form>
     </main>
+    <div class="popup">
+      <h1>Registrar</h1>
+      <input type="text" name="" placeholder="Digite o seu email" id="">
+      <input type="password" placeholder="digite a sua senha">
+      <input  id="estilizar2" onclick="fechar()" type="button" value="X">
+     </div>
     <script src="./script.js"></script>
 </body>
 </html>
