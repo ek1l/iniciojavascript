@@ -1,5 +1,6 @@
 function reverseString() {
    let nome = prompt(`Digite o nome da nave:`)
+   console.log(nome)
    let semE = nome.replaceAll("e", "")
    let naveNome = ""
     for (let i = nome.length - 1; i >= 0; i--) {
